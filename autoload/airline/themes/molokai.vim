@@ -6,9 +6,13 @@ let g:airline#themes#molokai#palette.accents = {
 
 
 " Normal mode
-let s:N1 = [ '#080808' , '#e6db74' , 232 , 144 ] " mode
-let s:N2 = [ '#f8f8f0' , '#232526' , 253 , 16  ] " info
-let s:N3 = [ '#f8f8f0' , '#465457' , 253 , 67  ] " statusline
+" let s:N1 = [ '#080808' , '#e6db74' , 232 , 144 ] " mode
+" let s:N2 = [ '#f8f8f0' , '#232526' , 253 , 16  ] " info
+" let s:N3 = [ '#f8f8f0' , '#465457' , 253 , 67  ] " statusline
+
+let s:N1 = [ '#080808' , '#e6db74' , 232 , 67 ] " mode
+let s:N2 = [ '#f8f8f0' , '#232526' , 253 , 16 ] " info
+let s:N3 = [ '#f8f8f0' , '#465457' , 196,  144, 'bold' ] " statusline
 
 let g:airline#themes#molokai#palette.normal = airline#themes#generate_color_map(s:N1, s:N2, s:N3)
 let g:airline#themes#molokai#palette.normal_modified = {
