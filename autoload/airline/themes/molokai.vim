@@ -8,7 +8,8 @@ let g:airline#themes#molokai#palette.accents = {
 " Normal mode
 let s:N1 = [ '#080808' , '#e6db74' , 232 , 144 ] " mode
 let s:N2 = [ '#f8f8f0' , '#232526' , 253 , 16  ] " info
-let s:N3 = [ '#f8f8f0' , '#465457' , 253 , 67, 'bold'  ] " statusline
+" let s:N3 = [ '#f8f8f0' , '#465457' , 253 , 67, 'bold'  ] " statusline
+let s:N3 = [ '#005fff' , '#afffff' , 27  , 159 ]
 
 " let s:N1 = [ '#080808' , '#e6db74' , 232 , 67 ] " mode
 " let s:N2 = [ '#f8f8f0' , '#232526' , 253 , 16 ] " info
@@ -23,7 +24,8 @@ let g:airline#themes#molokai#palette.normal_modified = {
 " Insert mode
 let s:I1 = [ '#080808' , '#66d9ef' , 232 , 81 ]
 let s:I2 = [ '#f8f8f0' , '#232526' , 253 , 16 ]
-let s:I3 = [ '#f8f8f0' , '#465457' , 253 , 67 ]
+" let s:I3 = [ '#f8f8f0' , '#465457' , 253 , 67 ]
+let s:I3 = [ '#005f5f' , '#afff87' , 23  , 156 ]
 
 let g:airline#themes#molokai#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
 let g:airline#themes#molokai#palette.insert_modified = {
@@ -42,7 +44,8 @@ let g:airline#themes#molokai#palette.replace_modified = {
 " Visual mode
 let s:V1 = [ '#080808' , '#fd971f' , 232 , 208 ]
 let s:V2 = [ '#f8f8f0' , '#232526' , 253 , 16  ]
-let s:V3 = [ '#f8f8f0' , '#465457' , 253 , 67  ]
+" let s:V3 = [ '#f8f8f0' , '#465457' , 253 , 67  ]
+let s:V3 = [ '#df5f00' , '#ffff87' , 166 , 228 ]
 
 let g:airline#themes#molokai#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
 let g:airline#themes#molokai#palette.visual_modified = {
